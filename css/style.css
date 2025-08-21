@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdama;
+    font-family: Verdana;
 }
 
 ul{
@@ -64,10 +64,62 @@ header nav{
     margin: 0 0.5rem;
 }
 
-#bottom-header-ineer .btn,
+#bottom-header-inner .btn,
 .btn{
     background-color: #0071e3;
     border-radius: 10rem;
     padding: 0.4rem 1rem;
-    color: #fff;
+    color: #ffffff;
+}
+
+/* Conteudo */
+
+#ribbon{
+    text-align: center;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    color: #1d1d1d;
+    font-size: 0.9rem;
+}
+
+#ribbon a{
+    color: #0071e3;
+}
+
+#main-content{
+    text-align: center;
+    color: #1d1d1d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main-content #title{
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+#main-content #subtitle{
+    margin: 1rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#main-content #description{
+    max-width: 37.5rem;
+    margin: 1rem auto;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+#main-content #price{
+    font-size: 1.3rem;
+    color: #868686;
+    margin: 2rem;
+}
+
+#main-content .btn{
+    font-size: 1.1rem;
+    padding: 0.8rem 1.4rem;
+    align-self: center;
 }
