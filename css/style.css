@@ -224,3 +224,23 @@ header nav{
     }
 }
 
+@media (min-width: 601px) and (max-width: 768px){
+     #navbar li {
+        font-size: 0.8rem;
+    }
+
+    #bottom-header-links a{
+        display: none;
+    }
+
+    #bottom-header-links .btn{
+        display: flex;
+    }
+
+    #product-image{
+        width: 35rem;
+    }
+}
+
+
+
