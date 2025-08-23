@@ -218,5 +218,9 @@ header nav{
     #main-content #subtitle{
         font-size: 3rem;
     }
+
+    #product-image{
+        width: 35rem;
+    }
 }
 
