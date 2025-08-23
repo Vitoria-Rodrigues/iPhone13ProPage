@@ -224,6 +224,8 @@ header nav{
     }
 }
 
+/* Tablets */
+
 @media (min-width: 601px) and (max-width: 768px){
      #navbar li {
         font-size: 0.8rem;
@@ -242,5 +244,10 @@ header nav{
     }
 }
 
+/* Tablets maiores*/
 
-
+@media (min-width: 769px) and (max-width: 992px){
+    #product-image{
+        width: 40rem;
+    }
+}
